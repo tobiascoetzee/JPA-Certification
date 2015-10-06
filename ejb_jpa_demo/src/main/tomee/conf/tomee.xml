@@ -1,0 +1,6 @@
+<tomee>
+    <Resource id="jdbc/DerbyDatabase" type="DataSource" classpath="mvn:org.apache.derby:derby:10.10.1.1">
+        JdbcDriver org.apache.derby.jdbc.EmbeddedDriver
+        JdbcUrl jdbc:derby:DerbyDb;create=true
+    </Resource>
+</tomee>
